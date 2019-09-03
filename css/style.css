@@ -105,11 +105,17 @@ a:hover {
     font-size: 55px;
     color:#f4046f;
 }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #81063c;
+}
 button.close {
     font-size: 26px;
     z-index: 1;
     position: relative;
     right: 5px;
+}
+.main-title {
+    text-align: center;
 }
 @media (min-width: 768px) {
     .navbar-nav {
