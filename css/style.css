@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open sans', sans-serif;
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 1.62;
+}
+a, button {
+    transition: all .3s linear;
+}
+a {
+    color: #f4046f;
+}
+a:hover {
+    color: #81063c;
+    text-decoration: none;
+}
+.header-page-block {
+    background-color: rgba(255,243,1,0.5);
+}
+.header-row-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+.header-logo span {
+    display: block;
+    color: #4d4d4d;
+    padding-left: 7px;
+    font-weight: bold;
+}
+.header-btn button {
+    background-color: #f4046f;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #f4046f;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.header-btn button:hover {
+    background-color: transparent;
+    color: #f4046f;
+}
+.header-btn button:focus {
+    outline: none;
+}
+.header-contact a {
+    color: #f4046f;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+.header-contact a:hover {
+    color: #81063c;
+}
+.header-time-text {
+    font-size: 18px;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #f4046f;
+    font-weight: bold;
+}
+.owl-feedback-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+.owl-feedback-form a {
+    background-color: #f4046f;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #f4046f;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color:#f4046f;
+}
+button.close {
+    font-size: 26px;
+    z-index: 1;
+    position: relative;
+    right: 5px;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        margin: 10px 0;
+        background-color: #f4046f;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+}
