@@ -117,6 +117,27 @@ button.close {
 .main-title {
     text-align: center;
 }
+.advantages-item {
+    width: 23%;
+    text-align: center;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.advantages-image img {
+    width: 100%;
+}
+.advantages-text-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.advantages-flex-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
