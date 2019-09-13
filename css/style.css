@@ -116,14 +116,15 @@ button.close {
 }
 .main-title {
     text-align: center;
+    margin-bottom: 30px;
 }
 .advantages-item {
     width: 23%;
     text-align: center;
     border: 1px solid #dedede;
-    border-radius: 2px;
-    padding: 20px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px 20px 0;
 }
 .advantages-image img {
     width: 100%;
@@ -132,11 +133,34 @@ button.close {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
+    height: 64px;
 }
 .advantages-flex-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+}
+.advantages-image {
+    margin-bottom: 20px;
+}
+.goods-block-main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-button-obj {
+    background-color: #f4046f;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #f4046f;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.main-button-obj:hover {
+    background-color: transparent;
+    color: #f4046f;
+}
+.order-btn {
+    text-align: center;
 }
 @media (min-width: 768px) {
     .navbar-nav {
