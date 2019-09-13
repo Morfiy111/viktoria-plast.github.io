@@ -195,6 +195,48 @@ button.close {
 .goods-description-text {
     margin-bottom: 30px;
 }
+.main-goods-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+.main-goods-img {
+    width: 48%;
+}
+.main-goods-img img {
+    width: 100%;
+}
+.main-goods-text {
+    width: 50%;
+}
+.main-goods-text h3 {
+    margin-top: 0;
+}
+.main-goods-text p, .main-goods-text ul {
+    font-size: 14px;
+}
+#button-up {
+    display: none;
+    right: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    width: 56px;
+    color: #333333;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0px 0 0 28px;
+    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    z-index: 9;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
