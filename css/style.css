@@ -24,11 +24,12 @@ a:hover {
     padding: 15px 0;
     flex-wrap: wrap;
 }
-.header-logo span {
+.header-logo span, .footer-logo span {
     display: block;
     color: #4d4d4d;
     padding-left: 7px;
     font-weight: bold;
+    font-size: 20px;
 }
 .header-btn button {
     background-color: #f4046f;
@@ -372,6 +373,14 @@ button.close {
         width: 100%;
     }
     .main-goods-item-big-img .main-goods-text {
+        width: 100%;
+    }
+}
+@media(max-width: 500px) {
+    .footer-logo {
+        width: 100%;
+    }
+    .advantages-item {
         width: 100%;
     }
 }
