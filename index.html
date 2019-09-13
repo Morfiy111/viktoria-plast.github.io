@@ -1,187 +1,120 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Виктория Пласт</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- Предупреждение: Respond.js не работает при просмотре страницы через файл:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script >
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Проект сайта Виктория-Пласт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 <body>
-<header class="header-page-block">
-    <div class="container">
-        <div class="header-row-flex">
-            <div class="header-logo">
-                <a href="/">
-                    <img src="images/logo.png" title="Виктория Пласт" alt="Виктория Пласт">
-                    <span>ВИКТОРИЯ - ПЛАСТ ОКНА</span>
-                </a>
-            </div>
-            <div class="header-time">
-                <div class="header-time-text">
-                    Курск, Союзная, 10<br>
-                    <span>Курск, Энтузиастов, 1А</span>
-                </div>
-            </div>
-            <div class="header-btn">
-                <button data-toggle="modal" data-target="#modal-send">ЗАКАЗАТЬ ЗАМЕР</button>
-            </div>
-            <div class="header-contact">
-                <a href="tel:+74712551751">+7 (919) 213-37-99</a>
-                <a href="tel:+79065736510">+7 (910) 730-99-10</a>
-            </div>
-        </div>
-    </div>
-</header>
-<div class="container">
-    <nav class="navbar navbar-default">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-main">
-            <ul class="nav navbar-nav">
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#windows">Окна</a></li>
-                <li><a href="#doors">Двери</a></li>
-                <li><a href="#blinds">Шторы</a></li>
-                <li><a href="#roof">Потолки</a></li>
-                <li><a href="#contact">Контакты</a></li>
-                <li><a href="#price">Прайс-лист</a></li>
-            </ul>
-        </div>
-    </nav>
+<div class="pages">
+    <div class="pages__project">Проект сайта Виктория-Пласт</div>
+    <div class="pages__title">Готовность по проекту</div>
+    <ul class="pages__list">
+        <li class="pages__item pages__item_red">
+            <a href="Victoria-plast.html" target="_blank">
+                <span class="pages__name">Главная страница</span>
+                <span class="pages__href">Victoria-plast.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="about.html" target="_blank">
+                <span class="pages__name">О нас</span>
+                <span class="pages__href">about.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="windows.html" target="_blank">
+                <span class="pages__name">Окна</span>
+                <span class="pages__href">windows.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="doors.html" target="_blank">
+                <span class="pages__name">Двери</span>
+                <span class="pages__href">doors.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="blind.html" target="_blank">
+                <span class="pages__name">Шторы</span>
+                <span class="pages__href">blind.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="ceiling.html" target="_blank">
+                <span class="pages__name">Потолки</span>
+                <span class="pages__href">ceiling.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="contacts.html" target="_blank">
+                <span class="pages__name">Контакты</span>
+                <span class="pages__href">contacts.html</span>
+            </a>
+        </li>
+        <li class="pages__item pages__item_red">
+            <a href="price.html" target="_blank">
+                <span class="pages__name">Прайс-лист</span>
+                <span class="pages__href">price.html</span>
+            </a>
+        </li>
+    </ul>
 </div>
-<div class="owl-carousel">
-    <div class="owl-item-img">
-        <img src="images/banner3.jpg" alt="2123">
-    </div>
-    <div class="owl-item-img">
-        <img src="images/banner1.jpg" alt="3123">
-    </div>
-    <div class="owl-item-img">
-        <img src="images/banner2.jpg" alt="1123">
-    </div>
-</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif; }
 
-<div class="modal fade" id="modal-send" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
-                <span aria-hidden="true">×</span>
-            </button>
-            <div class="modal-body">
-                <div class="owl-feedback-form js-send-form">
-                    <h3>Хотите записаться на замер?</h3>
-                    <p>Заполните и отправьте заявку!</p>
-                    <input type="text" name="name" placeholder="Ваше имя">
-                    <input type="text" name="phone" placeholder="Телефон">
-                    <input type="text" name="email" placeholder="email">
-                    <a href="#" class="js-send-btn">Отправить заявку</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<section class="main-content-block">
-    <div class="container">
-        <h1 class="main-title">Окна Виктория-Пласт</h1>
-        <div class="advantages-flex-block">
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages1.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">СОБСТВЕННОЕ ПРОИЗВОДСТВО</div>
-                    <p>мы официальные переработчики высококачественных оконных и дверных профилей</p>
-                </div>
-            </div>
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages2.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">НАШ ОПЫТ БОЛЕЕ 25-ТИ ЛЕТ</div>
-                    <p>на рынке пластиковых изделий</p>
-                </div>
-            </div>
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages3.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">ЦЕНА ОТ ПРОИЗВОДИТЕЛЯ</div>
-                    <p>с нами вы не будите переплачивать посредникам</p>
-                </div>
-            </div>
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages4.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">КВАЛИФИЦИРОВАННЫЙ ПЕРСОНАЛ</div>
-                    <p>всегда поможет вам определиться с выбором</p>
-                </div>
-            </div>
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages5.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">3 ГОДА ПОЛНОЙ ГАРАНТИИ</div>
-                    <p>мы даем 100% гарантию на качество профиля, монтажа и эксплуатации изделий</p>
-                </div>
-            </div>
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages6.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">ШИРОКИЙ АССОРТИМЕНТ</div>
-                    <p>у нас вы можете заказать изделия любой формы и габаритов, а также подобрать нужный цвет ламинации и аксессуары</p>
-                </div>
-            </div>
-            <div class="advantages-item">
-                <div class="advantages-image">
-                    <img src="images/advantages7.jpg" alt="">
-                </div>
-                <div class="advantages-text">
-                    <div class="advantages-text-title">СВОЕВРЕМЕННОЕ ВЫПОЛНЕНИЕ</div>
-                    <p>мы сразу запускаем в производство ваш заказ, вовремя доставляем и сами устанавливаем изделия без потери времени</p>
-                </div>
-            </div>
-        </div>
-        <h2 class="main-title">Каталог</h2>
-        <div class="goods-block-main">
-            <img src="images/windows1-logo.png" alt="">
-        </div>
-        <div class="goods-description-text">
-            <p>Salamander StreamLine будет оптимальным решением для покупателей, чей взгляд устремлен в будущее и кто ценит настоящее качество и дизайн. Плавные линии профиля — это не только воплощение визуального совершенства окна, но и современные технологии профильного производства.</p>
-            <p>5-ти камерная система с монтажной шириной 76мм. и двумя контурами притворного уплотнения гарантирует высокий уровень звукоизоляции и теплозащиты, а также надежность от взлома — все компоненты для хорошегго самочувствия.</p>
-            <p>Система используются для сборки окон с современным технологичным дизайном, пригодна для производства габаритных оконных и дверных блоков, которые оснащаются широкими створками. Из них собирают поворотно-откидные, распашные и откидные окна. Профиль подходит для изготовления тяжелых створок весом до 120 кг. Помимо базового белого цвета, производитель профилей Salamander StreamLine предлагает много вариантов ламинации. По толщине наружных стенок система относятся к классу «A», так она составляет 3 мм. Окна Salamander StreamLine могут иметь 2 или 3 контура герметичности из эластичных уплотнителей серого либо черного цвета.</p>
-        </div>
-        <div class="order-btn">
-            <button data-toggle="modal" data-target="#modal-send" class="main-button-obj">ЗАКАЗАТЬ</button>
-        </div>
-    </div>
-</section>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/main.js"></script>
+    .pages {
+        display: flex;
+        flex-direction: column; }
+    .pages__project {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 22px; }
+    .pages__title {
+        text-align: center;
+        font-size: 18px;
+        padding: 15px; }
+    .pages__list {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        list-style-type: none; }
+    .pages__item {
+        background-color: #f0f0f0;
+        margin: 5px;
+        padding: 5px;
+        transition: background-color .1s ease-in-out; }
+    .pages__item a {
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between; }
+    .pages__item_green {
+        background-color: #85bb3d; }
+    .pages__item_green:hover {
+        background-color: #7fb43c; }
+    .pages__item_orange {
+        background-color: #ffa810; }
+    .pages__item_orange:hover {
+        background-color: #e99810; }
+    .pages__item_red {
+        background-color: #ff6653; }
+    .pages__item_red:hover {
+        background-color: #e8624f; }
+
+    @media (max-width: 700px) {
+        .pages .pages__list .pages__item .pages__href {
+            display: none; } }
+</style>
+<script>
+    $('a[href="#"]').attr('target','_self');
+</script>
 </body>
 </html>

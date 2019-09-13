@@ -161,6 +161,39 @@ button.close {
 }
 .order-btn {
     text-align: center;
+    margin-bottom: 40px;
+}
+.window-advantages-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.window-advantages-img img {
+    width: 80%;
+}
+.free-service-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.free-service-item i {
+    color: #f4046f;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.property-block-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.property-block-item {
+    width: 48%;
+}
+.goods-block-main img {
+    width: 400px;
+}
+.goods-description-text {
+    margin-bottom: 30px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
