@@ -237,11 +237,83 @@ button.close {
     cursor: pointer;
     z-index: 9;
 }
+#button-up span {
+    display: block;
+    width: 56px;
+    height: 66px;
+}
+.main-goods-item-big-img .main-goods-img {
+    width: 25%;
+}
+.main-goods-item-big-img .main-goods-text {
+    width: 71%;
+}
+.contact-title-bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+.contact-tel-block {
+    display: flex;
+    margin-bottom: 40px;
+}
+.contact-col-block {
+    width: 49%;
+}
+.contact-block-flex a {
+    display: block;
+}
+.contact-sub-title {
+    height: 25px;
+    display: block;
+}
+.yellow-back-footer {
+    background-color: rgba(255,243,1,0.5);
+    padding: 40px 0;
+}
+.header-logo, .footer-logo {
+    width: 300px;
+}
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-links:last-child {
+    text-align: right;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright p {
+    font-size: 12px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+}
+@media (max-width: 1199px) {
+    .advantages-item {
+        width: 30%;
+    }
+}
+@media(max-width: 991px) {
+    .navbar-default .navbar-nav > li > a {
+        white-space: nowrap;
+    }
+    .advantages-text-title {
+        font-size: 16px;
+        height: 44px;
+    }
+    .advantages-text p {
+        font-size: 14px;
     }
 }
 @media (max-width: 767px) {
@@ -251,5 +323,52 @@ button.close {
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
+    }
+    .advantages-item {
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+    .advantages-flex-block {
+        justify-content: space-between;
+    }
+    .main-goods-item {
+        flex-wrap: wrap;
+    }
+    .main-goods-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-goods-text {
+        width: 100%;
+    }
+    .contact-tel-block {
+        flex-wrap: wrap;
+    }
+    .contact-col-block {
+        width: 100%;
+    }
+    .contact-sub-title {
+        height: auto;
+    }
+    .footer-flex {
+        flex-direction: column;
+    }
+    .footer-links:last-child {
+        text-align: left;
+    }
+    .goods-block-main img {
+        width: 100%;
+    }
+    .property-block-item {
+        width: 100%;
+    }
+    .property-block-main {
+        flex-wrap: wrap;
+    }
+    .main-goods-item-big-img .main-goods-img {
+        width: 100%;
+    }
+    .main-goods-item-big-img .main-goods-text {
+        width: 100%;
     }
 }
