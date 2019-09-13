@@ -292,6 +292,9 @@ button.close {
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.map-block {
+    margin-bottom: 40px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
