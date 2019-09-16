@@ -29,7 +29,8 @@ a:hover {
     color: #4d4d4d;
     padding-left: 7px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
+    text-align: center;
 }
 .header-btn button {
     background-color: #f4046f;
