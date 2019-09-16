@@ -313,6 +313,24 @@ button.close {
     border-radius: 4px;
     padding: 10px;
 }
+.image-blind img {
+    width: 100%;
+}
+.flex-blind-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blind-block-item img {
+    width: 100%;
+}
+.blind-block-item {
+    width: 16%;
+    margin-bottom: 20px;
+}
+.title-color-blind {
+    text-align: center;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -335,6 +353,9 @@ button.close {
     }
     .advantages-text p {
         font-size: 14px;
+    }
+    .blind-block-item {
+        width: 24%;
     }
 }
 @media (max-width: 767px) {
@@ -398,6 +419,12 @@ button.close {
     }
     .galery-flex-block  {
         align-items: flex-start;
+    }
+    .blind-block-item {
+        width: 48%;
+    }
+    .window-advantages-img img {
+        width: 100%;
     }
 }
 @media(max-width: 500px) {
