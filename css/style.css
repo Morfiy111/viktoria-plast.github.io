@@ -312,6 +312,7 @@ button.close {
     border: 1px solid #e6e6e6;
     border-radius: 4px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 .image-blind img {
     width: 100%;
