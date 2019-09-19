@@ -363,6 +363,18 @@ button.close {
     height: 150px;
     width: 100%;
 }
+.zebra-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.zebra-flex img {
+    width: 32%;
+}
+.roller-flex img {
+    width: 48%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -471,6 +483,10 @@ button.close {
     }
     .window-advantages-img img {
         width: 100%;
+    }
+    .zebra-flex img {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 @media(max-width: 500px) {
