@@ -358,6 +358,11 @@ button.close {
     font-weight: bold;
     margin-bottom: 40px;
 }
+.color-block {
+    background-color: #be5563;
+    height: 150px;
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
