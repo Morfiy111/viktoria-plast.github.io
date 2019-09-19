@@ -332,6 +332,32 @@ button.close {
 .title-color-blind {
     text-align: center;
 }
+.price-block-flex {
+    display: flex;
+    align-items: center;
+}
+.price-block-flex img {
+    height: 200px;
+}
+.equally-simbol {
+    font-size: 60px;
+    color: #f4046f;
+}
+.price-sum {
+    font-size: 60px;
+    color: #f4046f;
+    white-space: nowrap;
+}
+.price-sum span {
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+}
+.subpunktprice {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -342,6 +368,10 @@ button.close {
 @media (max-width: 1199px) {
     .advantages-item {
         width: 30%;
+    }
+    .price-block-flex img {
+        height: auto;
+        width: 73%;
     }
 }
 @media(max-width: 991px) {
@@ -357,6 +387,16 @@ button.close {
     }
     .blind-block-item {
         width: 24%;
+    }
+    .price-block-flex {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .price-block-flex img {
+        width: 100%;
+    }
+    .equally-simbol {
+        display: none;
     }
 }
 @media (max-width: 767px) {
