@@ -376,6 +376,9 @@ button.close {
 .roller-flex img {
     width: 48%;
 }
+.galery-flex-block-contact .galery-item {
+    width: 16%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
