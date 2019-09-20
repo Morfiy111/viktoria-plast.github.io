@@ -379,6 +379,10 @@ button.close {
 .galery-flex-block-contact .galery-item {
     width: 16%;
 }
+.order-btn a {
+    margin-left: 10px;
+    padding: 11.5px 20px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
