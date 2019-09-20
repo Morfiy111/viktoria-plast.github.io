@@ -408,6 +408,9 @@ button.close {
     font-weight: bold;
     margin-bottom: 40px;
 }
+.owl-carousels img {
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
