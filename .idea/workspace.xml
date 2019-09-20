@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee42282-7b44-476c-92f8-be2d0742dd9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blind.html" beforeDir="false" afterPath="$PROJECT_DIR$/blind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceiling.html" beforeDir="false" afterPath="$PROJECT_DIR$/ceiling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doors.html" beforeDir="false" afterPath="$PROJECT_DIR$/doors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ceiling.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
@@ -118,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="195" column="65" selection-start-line="195" selection-start-column="65" selection-end-line="195" selection-end-column="65" />
+            <state relative-caret-position="365">
+              <caret line="115" column="87" selection-start-line="115" selection-start-column="87" selection-end-line="115" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -135,6 +132,7 @@
       <find>40px</find>
       <find>конта</find>
       <find>цве</find>
+      <find>мато</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,19 +144,19 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Victoria-plast.html" />
         <option value="$PROJECT_DIR$/windows.html" />
-        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/price.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/doors.html" />
         <option value="$PROJECT_DIR$/blind.html" />
         <option value="$PROJECT_DIR$/ceiling.html" />
+        <option value="$PROJECT_DIR$/contacts.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="371" />
+    <option name="x" value="137" />
+    <option name="y" value="106" />
     <option name="width" value="1371" />
     <option name="height" value="908" />
   </component>
@@ -237,15 +235,15 @@
       <workItem from="1568709447736" duration="652000" />
       <workItem from="1568872143378" duration="11225000" />
       <workItem from="1568895377200" duration="1990000" />
-      <workItem from="1568967334607" duration="1792000" />
+      <workItem from="1568967334607" duration="2058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56984000" />
+    <option name="totallyTimeSpent" value="57250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="371" width="1371" height="908" extended-state="0" />
+    <frame x="137" y="106" width="1371" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29536825" />
@@ -294,13 +292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="373" column="65" selection-start-line="373" selection-start-column="65" selection-end-line="373" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="195" column="65" selection-start-line="195" selection-start-column="65" selection-end-line="195" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -365,6 +356,13 @@
             <element signature="e#9110#9138#0" expanded="true" />
             <element signature="e#9464#9492#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="115" column="87" selection-start-line="115" selection-start-column="87" selection-end-line="115" selection-end-column="87" />
         </state>
       </provider>
     </entry>
