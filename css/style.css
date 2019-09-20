@@ -14,6 +14,11 @@ a:hover {
     color: #81063c;
     text-decoration: none;
 }
+.h1, h2, .logo-main, .header-logo span, .footer-logo span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #f4046f;
+}
 .header-page-block {
     background-color: rgba(255,243,1,0.5);
 }
@@ -27,10 +32,10 @@ a:hover {
 .header-logo span, .footer-logo span {
     display: block;
     color: #4d4d4d;
-    padding-left: 7px;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
+    margin-top: -20px;
 }
 .header-btn button {
     background-color: #f4046f;
@@ -39,6 +44,11 @@ a:hover {
     border: 2px solid #f4046f;
     border-radius: 4px;
     padding: 10px 20px;
+}
+.logo-main {
+    color: #f4046f;
+    font-size: 40px;
+    text-align: center;
 }
 .header-btn button:hover {
     background-color: transparent;
@@ -119,6 +129,10 @@ button.close {
 .main-title {
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #f4046f;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
 }
 .advantages-item {
     width: 23%;
@@ -273,7 +287,7 @@ button.close {
     padding: 40px 0;
 }
 .header-logo, .footer-logo {
-    width: 300px;
+    width: 365px;
 }
 .footer-links a {
     display: block;
@@ -434,6 +448,13 @@ button.close {
     .equally-simbol {
         display: none;
     }
+    .logo-main, .header-logo span, .footer-logo span {
+        font-size: 34px;
+        margin-top: -8px;
+    }
+    .header-logo, .footer-logo {
+        width: 310px;
+    }
 }
 @media (max-width: 767px) {
     .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -506,6 +527,20 @@ button.close {
     .zebra-flex img {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-row-block {
+        flex-wrap: wrap;
+    }
+    .banner-row-item:first-child {
+        margin-bottom: 20px;
+    }
+    .banner-row-item {
+        text-align: center;
+        width: 100%;
     }
 }
 @media(max-width: 500px) {
