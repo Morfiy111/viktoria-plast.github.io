@@ -68,6 +68,7 @@ a:hover {
 }
 .header-time-text {
     font-size: 18px;
+    font-weight: bold;
 }
 .navbar-default {
     background-color: transparent;
@@ -277,6 +278,8 @@ button.close {
 }
 .contact-block-flex a {
     display: block;
+    font-size: 18px;
+    font-weight: bold;
 }
 .contact-sub-title {
     height: 25px;
