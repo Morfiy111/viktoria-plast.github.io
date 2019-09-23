@@ -301,7 +301,7 @@ button.close {
 }
 .title-advantages {
     color: #4d4d4d;
-    font-size: 50px;
+    font-size: 36px;
     margin-top: 50px;
 }
 .footer-links a:hover {
@@ -439,6 +439,7 @@ h1 span {
 .banner-row-item-blue {
     color: #4d4d4d;
 }
+
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

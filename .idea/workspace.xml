@@ -22,20 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Victoria-plast.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="109" column="46" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="46" />
+            <state relative-caret-position="128">
+              <caret line="125" column="73" selection-start-line="125" selection-start-column="73" selection-end-line="125" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="441" selection-start-line="441" selection-end-line="441" />
             </state>
           </provider>
         </entry>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/price.html" />
         <option value="$PROJECT_DIR$/windows.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
-        <option value="$PROJECT_DIR$/Victoria-plast.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/Victoria-plast.html" />
       </list>
     </option>
   </component>
@@ -222,12 +222,12 @@
       <workItem from="1568967334607" duration="6727000" />
       <workItem from="1568981476546" duration="829000" />
       <workItem from="1568985124827" duration="2535000" />
-      <workItem from="1569217780767" duration="1450000" />
+      <workItem from="1569217780767" duration="2317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66733000" />
+    <option name="totallyTimeSpent" value="67600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="114" y="146" width="1371" height="908" extended-state="0" />
@@ -321,17 +321,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Victoria-plast.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="109" column="46" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="46" />
+        <state relative-caret-position="210">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Victoria-plast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
+        <state relative-caret-position="128">
+          <caret line="125" column="73" selection-start-line="125" selection-start-column="73" selection-end-line="125" selection-end-column="73" />
         </state>
       </provider>
     </entry>
