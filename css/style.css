@@ -76,8 +76,10 @@ a:hover {
     margin-bottom: 0;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #f4046f;
+    color: #4d4d4d;
     font-weight: bold;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 .owl-feedback-form input {
     display: block;
@@ -455,6 +457,9 @@ h1 span {
     .price-block-flex img {
         height: auto;
         width: 73%;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 20px;
     }
 }
 @media(max-width: 991px) {
