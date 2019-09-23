@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee42282-7b44-476c-92f8-be2d0742dd9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Victoria-plast.html" beforeDir="false" afterPath="$PROJECT_DIR$/Victoria-plast.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Victoria-plast.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+            <state relative-caret-position="428">
+              <caret line="109" column="46" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="302" column="30" selection-start-line="302" selection-start-column="30" selection-end-line="302" selection-end-column="30" />
+            <state relative-caret-position="283">
+              <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -223,12 +222,12 @@
       <workItem from="1568967334607" duration="6727000" />
       <workItem from="1568981476546" duration="829000" />
       <workItem from="1568985124827" duration="2535000" />
-      <workItem from="1569217780767" duration="1216000" />
+      <workItem from="1569217780767" duration="1450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66499000" />
+    <option name="totallyTimeSpent" value="66733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="114" y="146" width="1371" height="908" extended-state="0" />
@@ -324,15 +323,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Victoria-plast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        <state relative-caret-position="428">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="302" column="30" selection-start-line="302" selection-start-column="30" selection-end-line="302" selection-end-column="30" />
+        <state relative-caret-position="283">
+          <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
         </state>
       </provider>
     </entry>
