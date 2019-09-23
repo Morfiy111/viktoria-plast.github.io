@@ -297,6 +297,10 @@ button.close {
     display: block;
     text-decoration: none;
     font-weight: bold;
+    color: #4d4d4d;
+}
+.footer-links a:hover {
+    text-decoration: underline;
 }
 .footer-links:last-child {
     text-align: right;
@@ -415,7 +419,9 @@ button.close {
 .owl-carousels img {
     width: 100%;
 }
-
+h1 span {
+    color: #4d4d4d;
+}
 .banner-row-item {
     text-align: center;
     width: 100%;
@@ -426,7 +432,7 @@ button.close {
     color: #f4046f;
 }
 .banner-row-item-blue {
-    color: #000;
+    color: #4d4d4d;
 }
 @media (min-width: 768px) {
     .navbar-nav {
