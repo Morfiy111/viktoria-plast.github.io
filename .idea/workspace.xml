@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee42282-7b44-476c-92f8-be2d0742dd9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Victoria-plast.html" beforeDir="false" afterPath="$PROJECT_DIR$/Victoria-plast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="2ee42282-7b44-476c-92f8-be2d0742dd9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="114" />
     <option name="y" value="146" />
     <option name="width" value="1371" />
@@ -222,16 +219,15 @@
       <workItem from="1568967334607" duration="6727000" />
       <workItem from="1568981476546" duration="829000" />
       <workItem from="1568985124827" duration="2535000" />
-      <workItem from="1569217780767" duration="2317000" />
+      <workItem from="1569217780767" duration="3254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67600000" />
+    <option name="totallyTimeSpent" value="68537000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="146" width="1371" height="908" extended-state="0" />
-    <editor active="true" />
+    <frame x="114" y="146" width="1371" height="908" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.309795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
